@@ -1,0 +1,54 @@
+.content {
+    padding: 20px 40px;
+}
+.bordered {
+    border: 3px solid black;
+    width: 59px;
+    height: 59px;
+}
+.round-bordered {
+    border: 3px solid black;
+    border-radius: 50%;    
+    width: 59px;
+    height: 59px;
+}
+.thumbnail img {
+  
+    padding-right:15px;
+    }
+    
+    .textRight {
+      
+    text-align : right;
+    }
+    
+    
+    /* Added some padding to make it more readable */
+    
+    div[class^="col-"] {
+        padding:40px;
+    }
+    .file-title {
+        font-size: 12px;
+    }
+
+    .file-type {
+        font-size: 12px;
+        color: rgb(148, 148, 148);
+    }
+
+    .has-search .form-control {
+        padding-left: 2.375rem;
+    }
+    
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
